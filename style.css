@@ -1,0 +1,26 @@
+h2:first-letter {
+    font-size: 2em;
+  }
+  
+  h2 + p {
+    text-indent: 2em;
+  }
+  
+  a:before {
+    content: "\2192";
+  }
+  
+  abbr:after {
+    content: " (" attr(title) ")";
+    font-style: italic;
+  }
+  li:nth-child(1){
+    background-color: #ffff00;
+  }
+
+  li:last-child{
+    background-color: #969393;
+  }
+  ul li:nth-child(2n+1){
+    border: 1px dotted pink;
+  }
